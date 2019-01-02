@@ -158,7 +158,8 @@ section:last-child {
 	font-size: 1em;
 	font-weight: bold;
 	line-height: 80%;
-	margin-bottom: 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
 .desc {
@@ -174,8 +175,9 @@ section:last-child {
 .dateDetails {
 	font-size: 13.5px;
 	font-style: italic;
-	margin-bottom: 5px;
-	text-align: right;
+	float: right;
+	margin-bottom: 0px;
+	line-height: 1em;
 }
 
 .keySkills {
@@ -188,8 +190,23 @@ section:last-child {
 	color: #444;
 }
 
+.workPoints {
+	list-style-type: none;
+	margin-bottom: 10px;
+	color: #444;
+	margin-bottom: 3px;
+	font-size: 13.5px;
+	padding: 0px;
+	margin-left: 5px;
+}
+
 .keySkills ul li {
 	margin-bottom: 4px;
+}
+
+.workPoints li {
+	padding-bottom: 4px;
+	margin-left: 14px
 }
 
 .keySkills p {
